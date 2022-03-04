@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#clock-short-hand{
+    height: 20rem;
+    width: 0.5rem;
+    background: linear-gradient( #000000 55%, rgba(0, 0, 0, 0) 50%);
+    position: absolute;
+    z-index: 12;
+    left: 396px;
+    top: 241px;
+    border-radius: 5px 5px 0 0;
+}
+
+#clock-long-hand{
+    height: 30rem;
+    width: 0.5rem;
+    background: linear-gradient( #636363 55%, rgba(0, 0, 0, 0) 50%);
+    position: absolute;
+    z-index: 10;
+    left: 396px;
+    top: 162px;
+    border-radius: 5px 5px 0 0;
+}
+
+#second-hand{
+    height: 38rem;
+    width: 0.1rem;
+    background: linear-gradient( #ff2121 55%, rgba(255, 255, 255, 0) 50%);
+    position: absolute;
+    z-index: 10;
+    left: 399px;
+    top: 97px;
+}
+
+
+#clock-body{
+    position: relative;
+    width: 50rem;
+    height: auto;
+}
